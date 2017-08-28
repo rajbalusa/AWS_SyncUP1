@@ -1,2 +1,3 @@
-# AWS_SyncUP1
-Playing with AWS resources using the Python SDK;)
+# AWS Playground
+
+AWS commands, scripts, boto3 snippets, and more.
