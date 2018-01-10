@@ -1,5 +1,5 @@
 pipeline:
-  build:
+  build: ubuntu-debootstrap
     image: node:latest
     commands:
       - sudo apt-get update
