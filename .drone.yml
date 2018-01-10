@@ -1,6 +1,3 @@
-pipeline:
-  build: ubuntu-debootstrap
-    image: node:latest
-    commands:
-      - sudo apt-get update
-      - sudo apt-get install apache2
+image: amd64/python
+script:
+  - touch /tmp/test.txt
