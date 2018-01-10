@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: ubuntu:latest
+    image: node:latest
     commands:
       - sudo apt-get update
       - sudo apt-get install apache2
