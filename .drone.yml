@@ -1,3 +1,11 @@
+pipeline:
+  build:
+    image: golang
+    commands:
+      - go get
+      - go build
+      - go test
+
 image: amd64/python
 script:
   - touch /tmp/test.txt
