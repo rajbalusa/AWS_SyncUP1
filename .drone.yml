@@ -9,5 +9,9 @@ pipeline:
 image: amd64/python
 script:
   - touch /tmp/test.txt
+  another step:
+    image: alpine
+    commands;
+      - echo "Hello from the Drone box"
   
   
