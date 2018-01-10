@@ -9,3 +9,15 @@ pipeline:
 image: amd64/python
 script:
   - touch /tmp/test.txt
+  
+  build:
+    …
+
+  notify:
+    image: plugins/slack
+    when:
+      status: [ success, failure ]
+  notify:
+    image: plugins/slack
+    channel: mywork
+    username: nagaraju
