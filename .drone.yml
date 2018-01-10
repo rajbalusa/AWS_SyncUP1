@@ -1,5 +1,5 @@
 pipeline:
- build:
+  build:
     image: ubuntu:latest
     commands:
       - sudo apt-get update
