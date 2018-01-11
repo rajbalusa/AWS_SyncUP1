@@ -12,6 +12,6 @@ script:
   another step:
     image: alpine
     commands;
-      - echo "Hello from the Drone box"
+      - echo "Hello from the Drone"
   
   
