@@ -1,17 +1,8 @@
 pipeline:
   build:
-    image: golang
-    commands:
-      - go get
-      - go build
-      - go test
+    image: amd64/python
+      script:
+      - touch /tmp/test.txt
 
-image: amd64/python
-script:
-  - touch /tmp/test.txt
-  another step:
-    image: alpine
-    commands;
-      - echo "Hello from the Drone world"
   
   
