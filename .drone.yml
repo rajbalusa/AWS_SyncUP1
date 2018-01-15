@@ -1,6 +1,5 @@
-build:
-  image: ubuntu
-  commands:
-    -  "apt-get update"
-    -  "apt-get install git"
-
+pipeline:
+  run-tests:
+    image: node:6.3.0
+    commands:
+      - npm install lodash
