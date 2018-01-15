@@ -1,8 +1,6 @@
-
-
-  
-  --- 
-pipeline: 
-  build: ~
-  image: "amd64/python - touch /tmp/test.txt"
+build:
+  image: ubuntu
+  commands:
+    -  "apt-get update"
+    -  "apt-get install git"
 
